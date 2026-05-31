@@ -1,35 +1,3 @@
-Skip to content
-SiliconLabsSoftware
-community-creations
-Repository navigation
-Code
-Issues
-Pull requests
-20
- (20)
-Agents
-Actions
-Security and quality
-Insights
-community-creations/projects/wifi
-/wifi_applications/
-Go to file
-t
-T
-AndrasZiegler
-AndrasZiegler
-Rewrite contribution docs for links-only submissions (#33)
-bd6f1bc
- · 
-3 months ago
-community-creations/projects/wifi
-/wifi_applications/
-Name	Last commit message	Last commit date
-..
-README.md
-Rewrite contribution docs for links-only submissions (#33)
-3 months ago
-README.md
 Silicon Labs Wi-Fi Applications
 Wifi Applications Examples have already been featured by us for everyone to refer to.
 
