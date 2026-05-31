@@ -37,6 +37,7 @@ Example row (copy/paste and edit):
 
 | Project (GitHub) | Description | Author/Contributor |
 |:--|:--|:--|
+| [Automatic Vehicle Speed Limiter for School and Hospital Zones](https://github.com/winsome-nandini/Automatic-Vehicle-Speed-Limiter-for-School-Hospital-Zones) | An intelligent transportation safety system that uses RFID-based zone detection and the Silicon Labs SiWx917 Wireless MCU to automatically enforce speed limits in school and hospital zones, helping reduce overspeeding and improve road safety. | [Nandini Agarwal](https://github.com/winsome-nandini) |
 
 ## Documentation ##
 
