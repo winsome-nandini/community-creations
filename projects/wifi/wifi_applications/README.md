@@ -1,48 +1,32 @@
-# Silicon Labs Wi-Fi Applications #
+### Description
 
-[Wifi Applications Examples](https://github.com/SiliconLabsSoftware/wifi_applications) have already been featured by us for everyone to refer to.
+Added a new IoT project: **Automatic Vehicle Speed Limiter for School and Hospital Zones**.
 
-Wifi technology offers so many exciting possibilities, and we’d love to see what you come up with! Sharing your ideas not only adds variety and creativity to the field—it also helps and inspires others who are exploring similar paths.
+Automatic Vehicle Speed Limiter for School and Hospital Zones is an intelligent transportation safety system designed to automatically regulate and enforce vehicle speed limits within sensitive areas such as schools, hospitals, residential communities, and pedestrian zones. The project combines RFID-based zone identification, real-time speed monitoring, embedded control, and cloud connectivity to improve road safety and reduce accidents caused by overspeeding.
 
-## Requirements ##
+The system utilizes RFID tags installed at the entry and exit points of restricted zones. An onboard RC522 RFID reader detects these tags and communicates with the Silicon Labs SiWx917 Wireless MCU, which continuously monitors vehicle speed using a Hall-effect sensor mounted on the motor shaft. When a vehicle enters a restricted zone, the controller retrieves the predefined speed limit and automatically activates speed-governance mode. If the vehicle exceeds the configured limit, the system dynamically regulates motor power using PWM-based control through the motor driver, preventing further acceleration beyond the permitted speed.
 
-1. Silicon Labs SiWx91x development kit
-2. Simplicity Studio 5
-3. Compatible SDK version, you can install it via Simplicity Studio or download it from our GitHub [gecko_sdk](https://github.com/SiliconLabs/gecko_sdk) or [simplicity_sdk](https://github.com/SiliconLabs/simplicity_sdk)
-4. Compatible WiSeConnect SDK, you can install it via Simplicity Studio or download it from our GitHub [wiseconnect_sdk](https://github.com/SiliconLabs/wiseconnect)
-5. Compatible Third-Party Hardware Drivers extension that also specified in each project's readme file, available [here](https://github.com/SiliconLabs/third_party_hw_drivers_extension)
+The integrated Wi-Fi capability of the SiWx917 enables future cloud connectivity for real-time monitoring, speed analytics, violation tracking, and smart-city transportation integration. The architecture is designed to support intelligent traffic management, pedestrian safety, school-zone protection, hospital-zone enforcement, and next-generation connected transportation systems.
 
-## How to contribute ##
+---
 
-This repository accepts link submissions (not project source code). To share your project, add a new row to the table below with:
+### Project GitHub URL
 
-- a link to your public GitHub repository
-- a 1-2 sentence description
-- a link to your GitHub profile
-- append your new row to the bottom of the table (do not reorder or edit existing rows)
+https://github.com/winsome-nandini/Automatic-Vehicle-Speed-Limiter-for-School-Hospital-Zones
 
-See [How to Contribute](../../../README.md#how-to-contribute) and [CONTRIBUTING.md](../../../.github/CONTRIBUTING.md) for details.
+---
 
-## Project list ##
+### Checklist
 
-Below is a list of Wifi application projects that have been contributed by the community.
+* [x] I have read the [Contributor License Agreement](https://github.com/SiliconLabsSoftware/agreements-and-guidelines/blob/main/contributor_license_agreement.md).
+* [x] The linked GitHub repository is public and accessible.
+* [x] The linked GitHub repository includes a license file.
+* [x] I added my entry to the correct category listing table under projects/ (appended at the bottom; did not reorder existing rows).
 
-To avoid merge conflicts when multiple PRs are created around the same time, please append your new row at the bottom of the table.
+---
 
-Example row (copy/paste and edit):
+### Additional Notes
 
-```markdown
-| [my-project](https://github.com/<org-or-user>/<repo>) | One or two sentences describing what it does and which Silicon Labs technology it uses. | [my-handle](https://github.com/<your-handle>) |
-```
+This project focuses on intelligent speed governance and road safety through automated vehicle speed regulation in school and hospital zones. The system combines RFID-based zone detection, real-time speed monitoring, embedded control using the Silicon Labs SiWx917 platform, Hall-effect sensor feedback, and PWM-based motor control to enforce configurable speed limits without driver intervention.
 
-| Project (GitHub) | Description | Author/Contributor |
-|:--|:--|:--|
-
-## Documentation ##
-
-The official Wi-Fi documentation is available on the [Developer Documentation](https://docs.silabs.com/wiseconnect/latest/wiseconnect-developing-with-wiseconnect-sdk/) page.
-
-## Reporting Bugs/Issues and Posting Questions and Comments ##
-
-- For issues with a listed project, use the linked repository's issue tracker.
-- For issues with this directory page (broken links, wrong category, documentation problems), open an issue in this repository.
+The architecture is designed to support smart transportation systems, connected vehicle infrastructure, traffic safety enhancement, accident prevention, and future smart-city deployments through Wi-Fi-enabled monitoring and cloud-based analytics. Future enhancements include GPS-based geofencing, Vehicle-to-Infrastructure (V2I) communication, emergency vehicle override mechanisms, AI-driven traffic analytics, and remote speed-limit management through cloud services.
